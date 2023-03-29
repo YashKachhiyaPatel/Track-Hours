@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Human Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="body">
+
+<div class="main-body">
+
+<div>
+<label for="dateInput">Enter a date:</label>
+<input type="date" id="dateInput">
+ </div>
+
+  <div>
+     <label for="time1">Time 1:</label>
+  <input type="time" id="time1">
+
+  <label for="time2">Time 2:</label>
+  <input type="time" id="time2">
+
+  </div>
+ 
+ <div>
+<button onclick="calculateTimeDifference()" class="btn btn-primary calculate">Calculate</button>
+</div>
+
+<div>
+<p id="score" ></p>
+</div>
+
+</div>
+
+	<!-- <img src="y.jpg" align="center" alt="Yash"> -->
+	
+
+
+ <!--  <h1>Human Calculator</h1>
+
+  
+
+  <h2 id="txt">Do As Many Calculation As You Can In 60 seconds.</h2> -->
+
+  <!-- <input type="text" placeholder="Unique Id" maxlength="3" minlength="1" id="Id" name=""> -->
+
+<!-- 
+  <button id="start">Start</button> -->
+
+
+<!-- 
+ <div class="container">
+
+  <div class="btn_sum">
+  	<input type="text" id="first" value="15" name="">
+  	<p class="operator" style="background-color: white;">+</p>
+  	<input type="text" id="second" value="18" name="">
+  	<span id="equal">=</span>
+  	<input type="text" id="answer" name="">
+  </div>
+  <div class="result">
+  	<p id="time">Time<br><span id="time_left">60</span></p>
+  	<p id="player">Player</p>
+  	<p id="s">Score<br><span id="">0</span></p>
+  </div>
+ </div> -->
+
+
+ <!-- <div class="btns">
+ 	<button id="btn1" onclick="color1()">color1</button>
+ 	<button id="btn2" onclick="color2()">color2</button>
+ 	<button id="btn3" onclick="color3()">color3</button>
+ 	<button id="btn4" onclick="color4()">color4</button>
+  <button id="fetch">All Data</button>
+  <button id="Back">Back</button>
+
+ </div> -->
+
+
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+  apiKey: "AIzaSyCRMAOdTKnJtkUlyxmtj4Q1Cs3swVFebsY",
+  authDomain: "trackhour-f72b3.firebaseapp.com",
+  projectId: "trackhour-f72b3",
+  storageBucket: "trackhour-f72b3.appspot.com",
+  messagingSenderId: "719341533252",
+  appId: "1:719341533252:web:60ee93901b9d51efe32411",
+  measurementId: "G-4R9DWJG5N2"
+};
+//
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+ <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
