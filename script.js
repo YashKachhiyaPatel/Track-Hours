@@ -97,7 +97,6 @@ function addToDatabase(minutes)
 
 				if(name == fname) {
 					c = score + c;
-					alert(fname);
 					database.ref('users/'+ name).set({
 		  			firstname:name,
 		  			score:c

@@ -4,8 +4,7 @@
 	box-sizing: border-box;
 }
 body{
-	height: 60vh;
-	background-color: lightblue;
+	background-color: rgb(254, 255, 255);
 }
 
 .main-body{
@@ -25,7 +24,7 @@ input[type=date] {
 /* Style the form inputs and button */
 input[type=time]{
   font-size: 20px;
-    width: 200px;
+    width: 150px;
     height: 57px;
 }
 
@@ -36,7 +35,7 @@ input[type=time]{
 }
 
 label {
-    font: 1rem 'Fira Sans', sans-serif;
+    font: 3rem 'Fira Sans', sans-serif;
 }
 
 #appt,
@@ -51,10 +50,15 @@ label {
 	border: none;
 	border-radius: 25px;
 	font-weight: 500px;
+	width: 400px;
 	font-size: 70px;
-	margin: 10px;
+	margin: 30px;
 	padding: 10px;
-
+	background-color :rgb(118, 191, 137);
+}
+.calculate:hover{
+	background-color :rgb(61, 102, 72);
+	font-weight: 800px;
 }
 #btnDate{
 	background-color: lightgreen;
@@ -65,8 +69,10 @@ label {
 	font-size: 4rem;
 	width: 300px;
 }
-img{
-	margin: -20px;
+.img{
+	display: flex;
+	justify-content: center;
+	align-items : center;
 }
 h1{
 	margin-top: 150px;
@@ -92,17 +98,7 @@ ul li{
 	width: 100%;
 	text-align: center;
 }
-.container{
-	width: 800px;
-	height: 400px;
-	border-radius: 20px;
-	background-color: #BEF8BF;
-	display: flex;
-	vertical-align: center;
-	flex-direction: column;
-	justify-content: center;
-	
-}
+
 #start{
 	margin: 50px 20px;
 	width:250px; 
